@@ -35,17 +35,17 @@ const monthLabel = (m: string) => {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Cobertura Vacinal Tríplice Viral 2026 por Município" },
+      { title: "Cobertura Vacinal Poliomielite 2026 por Município" },
       {
         name: "description",
         content:
-          "Painel com população, doses aplicadas e percentual de cobertura vacinal da tríplice viral (1ª dose) em 2026 nos municípios brasileiros.",
+          "Painel com população, doses aplicadas e percentual de cobertura vacinal da Poliomielite  em 2026 nos municípios brasileiros.",
       },
-      { property: "og:title", content: "Cobertura Vacinal Tríplice Viral 2026 por Município" },
+      { property: "og:title", content: "Cobertura Vacinal Poliomielite 2026 por Município" },
       {
         property: "og:description",
         content:
-          "Painel com população, doses aplicadas e percentual de cobertura vacinal da tríplice viral (1ª dose) em 2026 nos municípios brasileiros.",
+          "Painel com população, doses aplicadas e percentual de cobertura vacinal da Poliomienite em 2026 nos municípios brasileiros.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
