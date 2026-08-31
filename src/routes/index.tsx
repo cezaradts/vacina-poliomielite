@@ -122,7 +122,7 @@ export function Index() {
       <header className="border-b border-border bg-card">
         <div className="mx-auto max-w-6xl px-6 py-10">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
-            Tríplice viral · 1ª dose ·{" "}
+            Poliomielite ·{" "}
             {month === "todos" ? "jan–jun 2026 (acumulado)" : monthLabel(month)}
           </p>
           <h1 className="mt-3 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
