@@ -85,5 +85,6 @@ jobs:
             echo "Nenhuma alteração nos dados."
           else
             git commit -m "Atualiza dados de vacinação pelo Excel"
+            git pull --rebase origin main
             git push
           fi
