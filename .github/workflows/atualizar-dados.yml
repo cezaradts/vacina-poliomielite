@@ -3,7 +3,7 @@ name: Atualizar dados da vacinação
 on:
   push:
     paths:
-      - "src/data/vacinacao triplice viral 2026.xlsx"
+      - "src/data/Poliomielite_2026.xlsx"
       - ".github/workflows/atualizar-dados.yml"
   workflow_dispatch:
 
@@ -32,7 +32,7 @@ jobs:
           const XLSX = require("xlsx");
           const fs = require("fs");
 
-          const excelFile = "src/data/vacinacao triplice viral 2026.xlsx";
+          const excelFile = "src/data/Poliomielite_2026.xlsx";
           const jsonFile = "src/data/vacinacao.json";
 
           const workbook = XLSX.readFile(excelFile);
